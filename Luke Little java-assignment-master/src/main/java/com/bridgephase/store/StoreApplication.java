@@ -20,7 +20,6 @@ import com.bridgephase.store.interfaces.IInventory;
  * You are free to modify this class as you deem necessary although it's highly
  * recommended that you produce jUnit tests to verify the logic in your code.
  * 
- * @author Jaime Garcia Ramirez (jramirez@bridgephase.com)
  */
 public class StoreApplication {
 
