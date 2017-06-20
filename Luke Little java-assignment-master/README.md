@@ -1,12 +1,12 @@
-# BridgePhase Java Assignment - Convenience Store
+# Java Assignment - Convenience Store
 
 ## Instructions
 
 This assignment consists of various steps, *at a mininum*, **commit your code at the end of every step** with a meaningful commit message including the part number you're addressing. Make sure you push your code often.
 
-Class and method names that are specifically defined in this document must be exact (for example `Inventory`) and be placed under the `com.bridgephase.store` package. Any additional classes or methods that you require have no naming or package restrictions. Pay special attention to quality. Quality is more important than quantity in this exercise. If you are unable to complete all the tasks don't worry. 
+Class and method names that are specifically defined in this document must be exact (for example `Inventory`) and be placed under the `com.phase.store` package. Any additional classes or methods that you require have no naming or package restrictions. Pay special attention to quality. Quality is more important than quantity in this exercise. If you are unable to complete all the tasks don't worry. 
 
-If you have any questions or need clarifications regarding any part of the exercise, add an **Issue record** under this project and a BridgPhase representative will respond to you. Your submission must be pushed to the Git server in order to be reviewed, inform a BridgePhase representative via email when you've completed the assignment.
+If you have any questions or need clarifications regarding any part of the exercise, add an **Issue record** under this project and a representative will respond to you. Your submission must be pushed to the Git server in order to be reviewed, inform a representative via email when you've completed the assignment.
 
 The project is already able to be imported into Eclipse, just use Eclipse to import it as an **Existing Project**. If you use another IDE, you should be able to import the `src/main/java` and `src/test/java` folders as well just make sure you add jUnit 4.X to the classpath (if not using Eclipse).
 
@@ -16,7 +16,7 @@ Good luck!
 
 ## Background
 
-BridgePhase is opening up a new convenience store and needs a Point-of-Sale system to control serve as the cash register and inventory system.
+Phase is opening up a new convenience store and needs a Point-of-Sale system to control serve as the cash register and inventory system.
 
 ## Part 1. Inventory System
 
@@ -36,7 +36,6 @@ The `replenish()` method will populate the list of `Product` on the `Inventory`.
 
 2. `List<Product> list()` - returns an unmodifiable `List<Product>` representing the `Product` inside the `Inventory`.
 
-
 * **Note**: Pay attention to what class you'll use to represent prices and quantity...
 
 ## Part 2. Cash Register
@@ -54,7 +53,7 @@ Create a class called `CashRegister` that accepts an `IInventory` as part of its
 5. `void printReceipt(OutputStream os)` - prints the receipt in the following format (the format **is** important):
 
 ```
-BridgePhase Convenience Store
+Phase Convenience Store
 -----------------------------
 Total Products Bought: 17
 
