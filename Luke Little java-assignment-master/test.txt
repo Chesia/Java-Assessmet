@@ -1,0 +1,11 @@
+BridgePhase Convenience Store
+-----------------------------
+Total Products Bought: 4
+
+2 Orange @ $1.50: $3.00
+2 Apple @ $1.00: $2.00
+-----------------------------
+Total: 5
+Paid: 50
+Change: 45
+-----------------------------

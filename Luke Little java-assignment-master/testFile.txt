@@ -1,0 +1,10 @@
+BridgePhase Convenience Store
+-----------------------------
+Total Products Bought: 1
+
+1 Apple @ $1.00: $1.00
+-----------------------------
+Total: $1.00
+Paid: $1.00
+Change: $0.00
+-----------------------------
